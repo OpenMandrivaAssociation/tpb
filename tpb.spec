@@ -12,6 +12,7 @@ URL:		http://www.nongnu.org/tpb/
 Source0:	%{name}-%{version}.tar.bz2
 Source1:	%{name}.xinit
 Patch0:		%{name}rc.patch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	xosd-devel >= 2.0
 
 %description
