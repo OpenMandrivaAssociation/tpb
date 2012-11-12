@@ -1,0 +1,46 @@
+--- tpb-0.6.3/doc/tpbrc.orig	2004-08-18 15:57:32.000000000 +0200
++++ tpb-0.6.3/doc/tpbrc	2004-08-23 19:18:40.035726195 +0200
+@@ -147,6 +147,7 @@
+ # disconnected messages. Default is off.
+ #
+ #APM         OFF
++APM	on
+ 
+ ## POWERMGT
+ # The program apmiser (part of tpctl package) switches the power management
+@@ -182,12 +183,14 @@
+ # one. Default is the default font of the xosd library.
+ #
+ #OSDFONT     -*-lucidatypewriter-*-*-*-*-*-240-*-*-*-*-*-*
++OSDFONT     -adobe-helvetica-bold-r-normal-*-*-180-*-*-p-*-iso8859-15
+ 
+ ## OSDCOLOR
+ # Defines the color of the on-screen display. You may use "xcolors" to choose
+ # one. Default is BLUE.
+ #
+ #OSDCOLOR    Blue
++OSDCOLOR    Green
+ 
+ ## OSDTIMEOUT
+ # Defines how long (in seconds) the on-screen display is shown after the last
+@@ -203,7 +206,7 @@
+ ## OSDSHADOW
+ # Defines the offset of the font shadow in pixels. Default is 2.
+ #
+-#OSDSHADOW   2
++OSDSHADOW   5
+ 
+ ## OSDSHADOWCOLOR
+ # Defines the color of the shadow of the on-screen display. You may use
+@@ -238,9 +241,11 @@
+ # The value middle is only supported by xosd 2.0.0 and above. Default is bottom.
+ #
+ #OSDPOS      BOTTOM
++OSDPOS      middle
+ 
+ ## OSDALIGN
+ # Defines the alignment of the osd. Possible values are left, center and right.
+ # Default is left.
+ #
+ #OSDALIGN    LEFT
++OSDALIGN    center
