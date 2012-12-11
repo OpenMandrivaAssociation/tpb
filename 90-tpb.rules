@@ -1,0 +1,2 @@
+# Custom permissions for nvram for use with tpb(1).
+KERNEL=="nvram", MODE="0664"
