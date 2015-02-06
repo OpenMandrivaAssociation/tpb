@@ -1,6 +1,6 @@
 %define	name	tpb
 %define	version	0.6.4
-%define	release	%mkrel 8
+%define release	9
 
 Name:		%{name}
 Summary:	Program to use the IBM ThinkPad(tm) special keys
