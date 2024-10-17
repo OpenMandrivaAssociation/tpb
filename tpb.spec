@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPL
 Group:		Monitoring
-URL:		http://www.nongnu.org/tpb/
+URL:		https://www.nongnu.org/tpb/
 Source0:	%{name}-%{version}.tar.bz2
 Source1:	%{name}.xinit
 Source2:	90-tpb.rules
